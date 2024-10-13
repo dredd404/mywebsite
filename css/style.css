@@ -1,0 +1,60 @@
+/* Базовые стили для страницы */
+body {
+    background-color: #08161e;
+    font-family: 'Courier New', Courier, monospace;
+    color: white; /* Цвет текста */
+}
+
+/* Контейнер для содержимого */
+.container {
+    margin-top: 60px; /* Отступ сверху */
+    background-color: #3a3a3a;
+    padding: 100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px; /* Закругленные углы */
+    width: 90%; /* Увеличиваем ширину контейнера */
+}
+
+/* Стили для заголовка */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    color: hsl(48, 100%, 50%);
+    margin-top: -40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Стили для навигационной панели */
+.navbar {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white; /* Цвет текста навигации */
+}
+
+/* Стили для блока с фоном */
+/* Стили для изображения внутри контейнера */
+.my_photo {
+    width: 50%; /* Устанавливаем ширину изображения */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; /* Картинка будет круглой */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Тень */
+}
+
+/* Стили для текста внутри колонок */
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #08161e; /* Цвет фона панели */
+    border-bottom: 1px solid black; /* Тонкая черная полоса снизу */
+}
